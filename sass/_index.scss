@@ -1,0 +1,14 @@
+.fotodefondo {
+    display: inline;
+    background-position-x: center;
+}
+
+.foto-bg {
+    width: 100%;
+}
+
+.tituloImagen {
+    position: absolute; /*acá me deja el bloque sobre la foto*/
+    bottom: 8px;
+    right: 16px;
+  }

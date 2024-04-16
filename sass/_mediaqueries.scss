@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    nav {
+        display:flex;
+        flex-direction: column;
+        font-size: 10px;
+        text-decoration: overline;
+    }
+
+    nav ul li {
+        display:flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px;
+        text-decoration: none;
+    
+    }
+
+    h1 {
+        font-size:16px;
+    }
+
+    .tituloImagen {
+        position: static;
+        bottom: 20px;
+        right: 15px;
+    }
+
+    h2 {
+        font-size:16px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .fotosobremi {
+        background-color: #FFE5E5;
+    }
+    }
+
+
+@media (max-width: 320px) {
+    nav ul li {
+        justify-content: space-between;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .fotosobremi {
+        display:block;
+    }
+ }
+        
